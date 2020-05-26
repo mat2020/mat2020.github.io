@@ -8,7 +8,10 @@ html {
  
 body {
   /*background-color: white;*/
- 
+	background-image: url("back.JPG");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
   /*border: 2px solid black;*/
   padding: 0px 20px 20px 20px;
   
