@@ -109,7 +109,7 @@ function restrictListProducts(prods, restriction) {
 	}
 	let product = [];
 	
-	for(let i=0; i<product_prices.length; i+=1){
+	for(let i=0; i<product_names.length; i+=1){
 		var item = [product_names[i],product_prices[i]];
 		product.push(item);
 	}
@@ -126,7 +126,8 @@ function restrictListProducts(prods, restriction) {
 function getTotalPrice(chosenProducts) {
 	totalPrice = 0;
 	for (let i=0; i<products.length; i+=1) {
-		if (chosenProducts.indexOf(products[i].name) > -1){
+		var details = products[i].name + " -> " + products[i].price;
+		if (chosenProducts.indexOf(details ) > -1){
 			totalPrice += products[i].price;
 		}
 	}

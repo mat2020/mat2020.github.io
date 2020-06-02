@@ -35,12 +35,12 @@ function populateListProductChoices(slct1, slct2) {
 		
 	// obtain a reduced list of products based on restrictions
     var optionArray = restrictListProducts(products, s1.value);
-
+	optionArray.sort(function(x,y){return x[1]-y[1]});
 	// for each item in the array, create a checkbox element, each containing information such as:
 	// <input type="checkbox" name="product" value="Bread -> $$$">
 	// <label for="Bread">Bread/label><br>
 		
-	for (i = 0; i < optionArray[0].length; i++) {
+	for (i = 0; i < optionArray.length; i++) {
 			
 		var productName = optionArray[i][0];
 		var productPrice = optionArray[i][1];
@@ -49,7 +49,7 @@ function populateListProductChoices(slct1, slct2) {
 		var checkbox = document.createElement("input");
 		checkbox.type = "checkbox";
 		checkbox.name = "product";
-		checkbox.value = productName ;
+		checkbox.value = details ;
 		s2.appendChild(checkbox);
 		
 		// create a label for the checkbox, and also add in HTML DOM
@@ -61,6 +61,12 @@ function populateListProductChoices(slct1, slct2) {
 		// create a breakline node and add in HTML DOM
 		s2.appendChild(document.createElement("br"));    
 	}
+}
+
+function organiqueSelection(sclt1){
+	var s1 = document.getElementById(slct1);
+  
+	
 }
 	
 // This function is called when the "Add selected items to cart" button in clicked
