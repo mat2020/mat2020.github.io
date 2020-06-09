@@ -114,9 +114,6 @@ var products = [
 	**/
 
 function sortByDept(produit){
-	document.getElementById("demo").innerHTML = produit[0][0];
-	document.getElementById("demo").innerHTML = produit[0][1];
-	//document.getElementById("demo").innerHTML = produit[0][2];
 	let dept_Viande = [];
 	let dept_Epicerie = [];
 	let dept_Fruit_Leg = [];
