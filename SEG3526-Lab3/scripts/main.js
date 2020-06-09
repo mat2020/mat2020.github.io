@@ -62,12 +62,12 @@ function openInfo(evt, direction) {
 	**/
 
 	let restriction = [];
+	let optionArray = [];
 	
 	// generate a checkbox list from a list of products
 	// it makes each product name as the label for the checkbos
 	function populateListProductChoices(slct1, slct2) {
 		
-		document.getElementById("demo").innerHTML = slct1.substring(0, 3);
 		
 		if(slct1.substring(0, 3) == "veg"){
 			restriction[0] = slct1;
@@ -87,7 +87,7 @@ function openInfo(evt, direction) {
 		s2.innerHTML = "";
 		
 		// obtain a reduced list of products based on restrictions
-		var optionArray = restrictListProducts(products, restriction);
+		optionArray = restrictListProducts(products, restriction);
 		
 		optionArray.sort(function(x,y){return x[1]-y[1]});
 		// for each item in the array, create a checkbox element, each containing information such as:
@@ -119,6 +119,8 @@ function openInfo(evt, direction) {
 	
 function selectedItems(){
 	
+	//for cart
+	
 	var ele = document.getElementsByName("product");
 	var chosenProducts = [];
 	
@@ -126,9 +128,9 @@ function selectedItems(){
 	c.innerHTML = "";
 	
 	// build list of selected item
-	var para = document.createElement("P");
-	para.innerHTML = "Vous avez sélectionner" + ele.length + " item.";
-	para.innerHTML = "Item sélectionner:";
+	var para  = document.createElement("P");
+	para.innerHTML = "Vous avez sélectionner " + ele.length + " item.";
+	para.appendChild(document.createElement("br"));
 	para.appendChild(document.createElement("br"));
 	for (i = 0; i < ele.length; i++) { 
 		if (ele[i].checked) {
@@ -141,7 +143,27 @@ function selectedItems(){
 	// add paragraph and total price
 	c.appendChild(para);
 	c.appendChild(document.createTextNode("Total:  " + getTotalPrice(chosenProducts) + " $"));
+	
+	//for each departement 
+	var dept = document.getElementsByClassName("list");
+	
+	//matrix d'item par departement
+	let item_Dept = sortByDept(optionArray);
+	
+		for(i=0; i<dept.length; i++){
+			//dept[i].innerHTML = "";
+			var para1  = document.createElement("P");
+			for (y = 0; y < item_Dept[i].length; y++) { 
+				para1.appendChild(document.createTextNode(item_Dept[i][y]));
+				para1.appendChild(document.createElement("br"));
+			}
 		
+			dept[i].appendChild(para1);
+		}
+		
+	
+	
+	
 }
 
 	
