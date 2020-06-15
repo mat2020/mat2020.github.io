@@ -40,7 +40,7 @@
 
 
 
-	<nav class="navbar navbar-expand-sm" style=" padding-top:60px ; padding-bottom:45px >
+	<nav class="navbar navbar-expand" style=" padding-top:60px ; padding-bottom:45px; padding-left: 45px" >
 	  <ul class="navbar-nav navbar-center" style="width: 800px">
 	  <div class="row text-center" >
 		<div  class="col-sm-2"  style="background-color:#ff3300">
@@ -221,7 +221,7 @@
             </thead>
             <tbody>
             <tr>
-                <td>Entretien saisonnier</td>
+                <td><a href="#" data-toggle="tooltip" title="Généralement en début et fin de saison" style="color: #cccccc">Entretien saisonnier</a></td>
                 <td>Comprend système de 
 				<a href="#" data-toggle="modal" data-target="#frein" style="text-decoration: underline ; color: #cccccc">frein</a>
 				, 
@@ -232,7 +232,7 @@
 				<td>149.99$ </td>
             </tr>
             <tr>
-                <td>Service de crevaison</td>
+                <td><a href="#" style="color: #cccccc" >Service de crevaison</a></td>
                 <td>Changement de la 
 				<a href="#" data-toggle="modal" data-target="#tube" style="text-decoration: underline ; color: #cccccc">chambre à air.</a>
 				</td>
@@ -253,7 +253,7 @@
                 <div id="collapseService" class="collapse" data-parent="#accordion">
                     <div class="card-body" style="color: black">
                         <h5>Nos service offert:</h5>
-						<button type="button" class="btn bg-off-white"><h6>Entretien saisonier</h6></button>
+						<button type="button" class="btn bg-off-white"><h6>Entretien saissonier</h6></button>
 						<button type="button" class="btn bg-off-white"><h6>Service de crevaison</h6></button>
                     </div>
                 </div>
@@ -268,7 +268,7 @@
                         <!-- Bootstrap has various input components. Some examples are given here: -->
                         <!-- Component shown here: https://v4-alpha.getbootstrap.com/components/forms/#textual-inputs -->
                         <div class="form-group row">
-                            <label for="dateTimeInput" class="col-2 col-form-label" style="color: black">Date et heur à sélectionner</label>
+                            <label for="dateTimeInput" class="col-2 col-form-label" style="color: black">Date et heur sélectionner</label>
                             <div class="col-10">
                                 <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTimeInput">
                             </div>
