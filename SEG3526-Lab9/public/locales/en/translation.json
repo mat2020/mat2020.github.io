@@ -1,0 +1,204 @@
+{
+    "Tacceuil":{
+        "1": "Home"
+    },
+    "nous":{
+        "1": "Who we are"
+    },
+    "nousdef":{
+        "1": "Established since 2015, we are a growing organization in the field of rock climbing. Our professional training team to acquire in the field will offer you an experience or cheese according to your skills and will accompany you throughout your adventure "
+    },
+    "service":{
+        "1": "Our services"
+    },
+    "servicedef":{
+        "1": " We offer excursion reservations and training on various rock climbing sites popular in the region. During one of our adventures, you can enjoy either a cheese or an adventure sports excursion (Lead / top rope) or in trad. "
+    },
+    "coeur":{
+        "1": "What warm our heart"
+    },
+    "coeurdef":{
+        "1": "Without the nature that surrounds us we could not offer you our services, these why we are fervent participants in various organizations such as CLEAN A WALL, PICK UP TRASH and NATURE FIRST."
+    },
+
+
+    "Taventure":{
+        "aventure": "Adventure"
+    },
+    "guide":{
+        "aventure": "Guide"
+    },
+    "nos":{
+        "aventure": "Our adventures"
+    },
+
+    "rigaud":{
+        "accAventure": "Rigaud"
+    },
+    "niv1":{
+        "accAventure": "Level: 5.5 - 5.13 "
+    },
+    "app1":{
+        "accAventure": "How to get there: By the ski hill of Rigaud"
+    },
+    "haut1":{
+        "accAventure": "Height: 35 feet"
+    },
+
+    "argent":{
+        "accAventure": "Montagne d'argent"
+    },
+    "niv2":{
+        "accAventure": "Level: 5.5 - 5.15"
+    },
+    "app2":{
+        "accAventure": "How to get there: Multiple possible access along the road 138"
+    },
+        "haut2":{
+        "accAventure": "Height: 25 - 65 foot "
+    },
+
+    "calabogie":{
+        "accAventure": "Calabogie"
+    },
+    "niv3":{
+        "accAventure": "Level: 5.8 - 5.12"
+    },
+    "app3":{
+        "accAventure": "How to get there: Two possible access by route 138"
+    },
+        "haut3":{
+        "accAventure": "Height: 10 - 35 foot "
+    },
+
+    "nom1":{
+        "accGuide": "Guillaum"
+    },
+    "from1":{
+        "accGuide": "Training: FQME"
+    },
+    "exp1":{
+        "accGuide": "Experience: 15 years"
+    },
+    "desc1":{
+        "accGuide": "Always adept and addicted to climbing. I'll show you all the stuff"
+    },
+
+    "nom2":{
+        "accGuide": "Alex"
+    },
+    "from2":{
+        "accGuide": "Training: MontagneFrance"
+    },
+    "exp2":{
+        "accGuide": "Experience: 8 ans"
+    },
+    "desc2":{
+        "accGuide": "After conquering France I'm ready for Canada."
+    },
+
+    "nom3":{
+        "accGuide": "Marc"
+    },
+    "from3":{
+        "accGuide": "Training: GrimpeBC"
+    },
+    "exp3":{
+        "accGuide": "Experience: 6 ans"
+    },
+    "desc3":{
+        "accGuide": "Noths are my thing"
+    },
+
+
+
+    "Texperience":{
+        "experience": "Experience"
+    },
+    "niveauexpr":{
+        "experience": "Get your level of experience"
+    },
+
+    "Tq1":{
+        "experience": "1. Your climbing:"
+    },
+    "Tq1r1":{
+        "experience": "Sport - Lead"
+    },
+    "Tq1r1tip":{
+        "experience": " Climbing practice where you start from the ground and the 'Leader' attaches quickdraws when it climbs"
+    },
+    "Tq1r2":{
+        "experience": " Sport - Top rope"
+    },
+    "Tq1r2tip":{
+        "experience": "Practice climbing or the rope is already attached to an anchor at the top to ensure the climber."
+    },
+    "Tq1r3":{
+        "experience": " Trad"
+    },
+    "Tq1r3tip":{
+        "experience": "Really similar to the first rope except that the climber fixes these anchor points while climbing."
+    },
+
+    "Tq2":{
+        "experience": "2. What is your "
+    },
+    "Tq2tip":{
+        "experience": "North American system to assess the level of difficulty of the voices on rock. 5.5 -> easy 5.15 -> extremely difficult"
+    },
+
+    "Tq3":{
+        "experience": "3. Have you already climb outside: "
+    },
+    "Tq3oui":{
+        "experience": "YES"
+    },
+    "Tq3non":{
+        "experience": "NO"
+    },
+
+    "Tq4":{
+        "experience": "4. Do you have any equipement "
+    },
+    "Tq4Chk1":{
+        "experience": "Climbing shoes "
+    },
+    "Tq4Chk2":{
+        "experience": "Harness "
+    },
+    "Tq4Chk3":{
+        "experience": "Helmet "
+    },
+    "Tq4Chk4":{
+        "experience": "Rope "
+    },
+    "Tq4Chk5":{
+        "experience": "ATC "
+    },
+
+    "exbutton":{
+        "experience": "Meduim "
+    },
+
+
+
+    "Titre": {
+        "1":"Mountain adventure "
+    },
+    "Acceuil": {
+        "1":"Home"
+    },
+    "Aventure":{
+        "1": "Adventure"
+    },
+    "Experience":{
+        "1": "Experience"
+    },
+    "Commentaire":{
+        "1": "Comments"
+    },
+    "Tcommentaire":{
+        "1": "Comments"
+    }
+}

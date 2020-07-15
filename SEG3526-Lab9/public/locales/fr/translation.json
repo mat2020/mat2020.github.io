@@ -1,0 +1,204 @@
+{
+    "Tacceuil":{
+        "1": "Acceuil"
+    },
+    "nous":{
+        "1": "Qui somme nous"
+    },
+    "nousdef":{
+        "1": "Etablis depuis 2015 nous somme une organisation grandissante dans le domain de l'escalade sur roche. Notre équipe former de professionnel acquerir dans le domain vous offrirons une experience ou fromation selon vos habileter et vous accompagnerons tout au long de votre aventure "
+    },
+    "service":{
+        "1": "Nos service"
+    },
+    "servicedef":{
+        "1": "Nous offrons sur réservation des excursion ainsi que des formation sur divers site d'escalde sur roche populaire dans la région. Lors de l'une de nos aventure vous pourrez profiter sois d'une fromation ou d'une excursion aventure en sport  (moulinette / premier de cordee) ou en trad."
+    },
+    "coeur":{
+        "1": "Ce qui nous tiens à coeur"
+    },
+    "coeurdef":{
+        "1": "Sans la nature qui nous entoure nous ne pourrions vous offrir nos service, ces pourquoi nous somme de fervant participant dans divers organisation telle que CLEAN A WALL, PICK UP TRASH  et LA NATURE EN PREMIER."
+    },
+
+
+    "Taventure":{
+        "aventure": "Aventure"
+    },
+    "guide":{
+        "aventure": "Guide"
+    },
+    "nos":{
+        "aventure": "Nos aventure"
+    },
+
+    "rigaud":{
+        "accAventure": "Rigaud"
+    },
+    "niv1":{
+        "accAventure": "Niveau: 5.5 - 5.13 "
+    },
+    "app1":{
+        "accAventure": "Approche: Par la montagne de ski rigaud"
+    },
+    "haut1":{
+        "accAventure": "Hauteur: 35 pied"
+    },
+
+    "argent":{
+        "accAventure": "Montagne d'argent"
+    },
+    "niv2":{
+        "accAventure": "Niveau: 5.5 - 5.15"
+    },
+    "app2":{
+        "accAventure": "Approche: Plusieur accès disponible le long de la route."
+    },
+        "haut2":{
+        "accAventure": "Hauteur: 25 - 65 pied "
+    },
+
+    "calabogie":{
+        "accAventure": "Calabogie"
+    },
+    "niv3":{
+        "accAventure": "Niveau: 5.8 - 5.12"
+    },
+    "app3":{
+        "accAventure": "Approche: Deux accès diponible sur la route 138"
+    },
+        "haut3":{
+        "accAventure": "Hauteur: 10 - 35 pied "
+    },
+
+    "nom1":{
+        "accGuide": "Guillaum"
+    },
+    "from1":{
+        "accGuide": "Formation: FQME"
+    },
+    "exp1":{
+        "accGuide": "Experience: 15 ans"
+    },
+    "desc1":{
+        "accGuide": "Adpete et mordu d'escalade depuis toujours. Je vais vous montrez tout les truc"
+    },
+
+    "nom2":{
+        "accGuide": "Alex"
+    },
+    "from2":{
+        "accGuide": "Formation: MontagneFrance"
+    },
+    "exp2":{
+        "accGuide": "Experience: 8 ans"
+    },
+    "desc2":{
+        "accGuide": "Après avoir conquis la france je debarque au Canada."
+    },
+
+    "nom3":{
+        "accGuide": "Marc"
+    },
+    "from3":{
+        "accGuide": "Formation: GrimpeBC"
+    },
+    "exp3":{
+        "accGuide": "Experience: 6 ans"
+    },
+    "desc3":{
+        "accGuide": "Les noeuds j'en fait mon affaire."
+    },
+
+
+
+    "Texperience":{
+        "experience": "Experience"
+    },
+    "niveauexpr":{
+        "experience": "Obtener votre niveau d'experience"
+    },
+
+    "Tq1":{
+        "experience": "1. Vous grimper en:"
+    },
+    "Tq1r1":{
+        "experience": "Sport - Premier de cordée"
+    },
+    "Tq1r1tip":{
+        "experience": "Pratique de l'escalde ou l'on commence du sol et le 'Leader' attache des degaine lors de ca grimpe"
+    },
+    "Tq1r2":{
+        "experience": " Sport - Moulinette"
+    },
+    "Tq1r2tip":{
+        "experience": "Pratique de l'escalde ou la corde est deja fix a un point d'ancrage au sommet pour assurer le grimpeur."
+    },
+    "Tq1r3":{
+        "experience": " Trad"
+    },
+    "Tq1r3tip":{
+        "experience": "Realivement similaire au permier de corder a l'exeption que le grimpeur fix ces point d'ancrage en grimpant."
+    },
+
+    "Tq2":{
+        "experience": "2. Quelle est votre "
+    },
+    "Tq2tip":{
+        "experience": "System nord americain pour evaluer le niveau de difficulter des vois sur roche. 5.5 -> facile  5.15 -> extrement difficile"
+    },
+
+    "Tq3":{
+        "experience": "3. Avez vous deja grimper à l'exterieur? "
+    },
+    "Tq3oui":{
+        "experience": "OUI"
+    },
+    "Tq3non":{
+        "experience": "NON"
+    },
+
+    "Tq4":{
+        "experience": "4. Avez vous deja de l'équipement? "
+    },
+    "Tq4Chk1":{
+        "experience": "Soulier d'escalde "
+    },
+    "Tq4Chk2":{
+        "experience": "Harnais "
+    },
+    "Tq4Chk3":{
+        "experience": "Casque "
+    },
+    "Tq4Chk4":{
+        "experience": "Corde "
+    },
+    "Tq4Chk5":{
+        "experience": "ATC "
+    },
+
+    "exbutton":{
+        "experience": "Intermediaire "
+    },
+
+
+
+    "Titre": {
+        "1":"Aventure en montagne"
+    },
+    "Acceuil": {
+        "1":"Acceuil"
+    },
+    "Aventure":{
+        "1": "Aventure"
+    },
+    "Experience":{
+        "1": "Experience"
+    },
+    "Commentaire":{
+        "1": "Commentaire"
+    },
+    "Tcommentaire":{
+        "1": "Commentaire"
+    }
+}
